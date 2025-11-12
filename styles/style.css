@@ -1,0 +1,23 @@
+/* Fuente Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+/* Estilos Generales */
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+.a-nav {
+    text-decoration: none;
+}
+
+.li-nav {
+    list-style-type: none;
+}
+
+.footer-p {
+    font-size: 12px;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
