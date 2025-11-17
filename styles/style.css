@@ -26,6 +26,18 @@ h1 {
     text-align: center;
 }
 
+header {
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 500px;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+}
 .grid-index{
     margin: 10px;
     padding: 10px;
@@ -38,8 +50,5 @@ h1 {
     align-items: center;
     justify-items: center;
     gap: 50px;
-    border-radius: 5px;
-}
-.grid-area-index-video{
     border-radius: 5px;
 }
