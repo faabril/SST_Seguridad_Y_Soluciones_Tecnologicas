@@ -5,6 +5,10 @@ body{
     font-family: "Oswald", sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .a-nav {
     text-decoration: none;
 }
@@ -20,4 +24,22 @@ body{
 h1 {
     color: grey;
     text-align: center;
+}
+
+.grid-index{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    border-radius: 5px;
+}
+.grid-area-index-video{
+    border-radius: 5px;
 }
