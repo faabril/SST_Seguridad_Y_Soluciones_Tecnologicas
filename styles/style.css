@@ -25,23 +25,29 @@ h1 {
     color: grey;
     text-align: center;
 }
-
+h2 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
 header {
-    background-color: grey;
+    background-color: #cacecc;
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border: 2px solid rgb(131, 128, 128);
     border-radius: 500px;
 }
 
 footer {
-    background-color: grey;
+    border: 2px solid rgb(131, 128, 128);
+    background-color: #cacecc;
     text-align: center;
 }
 .grid-index{
     margin: 10px;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     display: grid;
     grid-template-columns: 800px;
@@ -52,3 +58,5 @@ footer {
     gap: 50px;
     border-radius: 5px;
 }
+
+
