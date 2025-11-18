@@ -30,19 +30,28 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+main {
+    margin: 50px;
+    padding: 50px;
+    border: #cacecc 2px solid;
+    border-radius: 10px;
+    background-color: #e6ece9;
+}
 header {
-    background-color: #cacecc;
-    margin: 10px;
+    /* background-color: #cacecc;
+    margin: 50px;
     padding: 10px;
     text-align: center;
     border: 2px solid rgb(131, 128, 128);
-    border-radius: 500px;
+    border-radius: 500px; */
 }
 
 footer {
     border: 2px solid rgb(131, 128, 128);
     background-color: #cacecc;
     text-align: center;
+    margin-top: 100px;
 }
 .grid-index{
     margin: 10px;
@@ -59,4 +68,30 @@ footer {
     border-radius: 5px;
 }
 
+.navbar-principal {
+    border: 2px solid rgb(131, 128, 128);
+    background-color: #cacecc;
+    margin-bottom: 20px;
+    border-radius: 500px;
 
+    margin: 50px;
+    padding: 10px;
+}
+
+/* Arreglo de header para mobile*/
+@media (max-width: 991px) {
+    .navbar-collapse.show {
+        text-align: center;
+        padding-bottom: 1px;
+    }
+    .navbar-nav .nav-link {
+        margin: 1px;
+    }
+    .navbar-collapse.show .btn-contacto {
+        margin-top: 1px;
+    }
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
