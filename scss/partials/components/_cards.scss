@@ -1,0 +1,16 @@
+.noticia-card {
+    border: 2px solid #cacecc;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #e6ece9;
+}
+
+.imagen-noticia {
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-noticia {
+    color: grey;
+    font-weight: 600;
+}

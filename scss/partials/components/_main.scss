@@ -1,5 +1,6 @@
+@use '../utilities/variables';
 h1 {
-    color: grey;
+    color: variables.$h1-color;
     text-align: center;
 }
 h2 {
@@ -16,20 +17,6 @@ main {
     background-color: #e6ece9;
 }
 
-// .grid-index{
-//     margin: 10px;
-//     padding: 10px;
-//     /* border: 1px solid black; */
-//     height: 100vh;
-//     display: grid;
-//     grid-template-columns: 800px;
-//     grid-template-rows: 1fr 1fr 1fr;
-//     justify-content: space-around;
-//     align-items: center;
-//     justify-items: center;
-//     gap: 50px;
-//     border-radius: 5px;
-// }
 .grid-index{
     margin: 10px;
     padding: 10px;
@@ -63,7 +50,7 @@ main {
 
 //Estilo para pagina sobre nosotros
 .imagen-sobre {
-    max-width: 350px; /* o el tamaño que quieras */
+    max-width: 350px;
     width: 100%;
     height: auto;
     margin-bottom: 20px;
