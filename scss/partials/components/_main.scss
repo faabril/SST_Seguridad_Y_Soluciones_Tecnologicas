@@ -1,0 +1,32 @@
+h1 {
+    color: grey;
+    text-align: center;
+}
+h2 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 50px;
+    padding: 50px;
+    border: #cacecc 2px solid;
+    border-radius: 10px;
+    background-color: #e6ece9;
+}
+
+.grid-index{
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    gap: 50px;
+    border-radius: 5px;
+}

@@ -1,97 +1,91 @@
 /* Fuente Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-/* Estilos Generales */
-body{
-    font-family: "Oswald", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+/* Estilos Generales */
+body {
+  font-family: "Oswald", sans-serif;
 }
+
 .a-nav {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .li-nav {
-    list-style-type: none;
-}
-
-.footer-p {
-    font-size: 12px;
-}
-
-h1 {
-    color: grey;
-    text-align: center;
-}
-h2 {
-    color: grey;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-main {
-    margin: 50px;
-    padding: 50px;
-    border: #cacecc 2px solid;
-    border-radius: 10px;
-    background-color: #e6ece9;
-}
-/* header {
-    background-color: #cacecc;
-    margin: 50px;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid rgb(131, 128, 128);
-    border-radius: 500px;
-}  */
-
-footer {
-    border: 2px solid rgb(131, 128, 128);
-    background-color: #cacecc;
-    text-align: center;
-    margin-top: 100px;
-}
-.grid-index{
-    margin: 10px;
-    padding: 10px;
-    /* border: 1px solid black; */
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 800px;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-content: space-around;
-    align-items: center;
-    justify-items: center;
-    gap: 50px;
-    border-radius: 5px;
+  list-style-type: none;
 }
 
 .navbar-principal {
-    border: 2px solid rgb(131, 128, 128);
-    background-color: #cacecc;
-    margin-bottom: 20px;
-    border-radius: 500px;
-
-    margin: 50px;
-    padding: 10px;
+  border: 2px solid rgb(131, 128, 128);
+  background-color: #cacecc;
+  margin-bottom: 20px;
+  border-radius: 500px;
+  margin: 50px;
+  padding: 10px;
 }
 
-/* Arreglo de header para mobile*/
 @media (max-width: 991px) {
-    .navbar-collapse.show {
-        text-align: center;
-        padding-bottom: 1px;
-    }
-    .navbar-nav .nav-link {
-        margin: 1px;
-    }
-    .navbar-collapse.show .btn-contacto {
-        margin-top: 1px;
-    }
-    .navbar-brand {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .navbar-collapse.show {
+    text-align: center;
+    padding-bottom: 1px;
+  }
+  .navbar-nav .nav-link {
+    margin: 1px;
+  }
+  .navbar-collapse.show .btn-contacto {
+    margin-top: 1px;
+  }
+  .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+.footer-p {
+  font-size: 12px;
+}
+
+footer {
+  border: 2px solid rgb(131, 128, 128);
+  background-color: #cacecc;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 50px;
+  padding: 50px;
+  border: #cacecc 2px solid;
+  border-radius: 10px;
+  background-color: #e6ece9;
+}
+
+.grid-index {
+  margin: 10px;
+  padding: 10px;
+  /* border: 1px solid black; */
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
