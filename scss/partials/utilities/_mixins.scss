@@ -1,0 +1,13 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin overlay-box($bg: rgba(0, 0, 0, 0.55)) {
+    background-color: $bg;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+

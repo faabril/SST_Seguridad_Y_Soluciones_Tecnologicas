@@ -10,34 +10,56 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
-nav .a-nav {
-  text-decoration: none;
+header .navbar.navbar-principal {
+  background-color: #e9eeeb !important;
+  max-width: 95%;
+  margin: 20px auto;
+  border-radius: 50px;
+  padding: 0.8rem 2.5rem;
+  border: 2px solid #cacecc;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
-nav .li-nav {
-  list-style-type: none;
+header .navbar.navbar-principal .navbar-brand img {
+  height: 100px;
+  width: auto;
 }
-nav .navbar-principal {
-  border: 2px solid rgb(131, 128, 128);
-  background-color: #00b45a;
-  margin-bottom: 20px;
-  border-radius: 500px;
-  margin: 50px;
-  padding: 10px;
+header .navbar.navbar-principal .nav-link {
+  color: #2b2b2b !important;
+  font-weight: 500;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
 }
-@media (max-width: 991px) {
-  nav .navbar-collapse.show {
-    text-align: center;
-    padding-bottom: 1px;
-  }
-  nav .navbar-nav .nav-link {
-    margin: 1px;
-  }
-  nav .navbar-brand {
-    margin-left: auto;
-    margin-right: auto;
-  }
+header .navbar.navbar-principal .nav-link:hover {
+  color: #1e90ff !important;
+}
+header .navbar.navbar-principal .nav-link.active {
+  color: #1e90ff !important;
+}
+header .navbar.navbar-principal .navbar-toggler {
+  border: none;
+}
+header .navbar.navbar-principal .navbar-toggler-icon {
+  filter: invert(1);
 }
 
+@media (max-width: 991px) {
+  header .navbar.navbar-principal {
+    margin: 10px auto;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+  }
+  header .navbar.navbar-principal .navbar-brand img {
+    height: 60px;
+  }
+  header .navbar.navbar-principal .navbar-collapse {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  header .navbar.navbar-principal .nav-link {
+    margin: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+}
 .footer-p {
   font-size: 12px;
 }
@@ -142,7 +164,6 @@ main {
   font-weight: 600;
 }
 
-/* ===== BASE CAROUSEL ===== */
 .carousel-base, .carousel-marcas, .carousel-servicios, .carousel-index {
   max-width: 1100px;
   margin: 2rem auto;
@@ -157,9 +178,10 @@ main {
   border-radius: 10px;
 }
 .carousel-base .carousel-caption, .carousel-marcas .carousel-caption, .carousel-servicios .carousel-caption, .carousel-index .carousel-caption {
-  background: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.55);
   border-radius: 8px;
   padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 /* ===== EXTENDS ===== */
