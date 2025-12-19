@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
+    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CSS propio -->
     <link rel="stylesheet" href="./styles/style.css">
+
     <title>SST - Inicio</title>
 </head>
 
 <body>
 
+    <!-- HEADER -->
     <header>
-        <nav class="navbar-principal navbar navbar-expand-lg bg-body-secondary">
+        <nav class="navbar-principal navbar navbar-expand-lg">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="#">
-                    <img src="assets/logo.png" alt="Logo" width="150">
+                    <img src="assets/logo.png" alt="Logo SST" width="150">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -30,7 +40,7 @@
                     <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Inicio</a>
+                            <a class="nav-link active" href="#">Inicio</a>
                         </li>
 
                         <li class="nav-item">
@@ -53,51 +63,123 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
+    <!-- MAIN -->
     <main>
+
         <section class="grid-index">
+
+            <!-- TITULO -->
             <article class="grid-area-index">
-                <h1 class="animate__animated animate__fadeInUp">Seguridad y Soluciones Tecnologicas</h1>
+                <h1 class="animate__animated animate__fadeInUp">
+                    Seguridad y Soluciones Tecnológicas
+                </h1>
             </article>
+
+            <!-- CAROUSEL (ESTILO TIPO SERVICIOS) -->
+            <section class="carousel-index">
+                <div id="carouselSST" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="assets/alarmas_Hikvision.jfif"
+                                class="d-block w-100"
+                                alt="Alarmas Hikvision">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Alarmas Inteligentes</h5>
+                                <p>Protección avanzada para hogares y empresas.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/control_acceso_Hikvision.jpeg"
+                                class="d-block w-100"
+                                alt="Control de Acceso Hikvision">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Control de Acceso 3.0</h5>
+                                <p>Reconocimiento facial impulsado por Hik-IA.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="assets/darkfighter_Hikvision.jfif"
+                                class="d-block w-100"
+                                alt="Cámaras DarkFighter Hikvision">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tecnología DarkFighter</h5>
+                                <p>Imágenes a color en baja iluminación.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselSST" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselSST" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+            </section>
+
+            <!-- TEXTO -->
             <article class="grid-area-index">
-                <p class="animate__animated animate__fadeInUp">Bienvenidos a "SST", a empresa de segurdad electronca que te ayudara a proteger tu hogar, empresa o
-                    cuaquiera de tus propiedades o bienes.</p>
-                <p class="animate__animated animate__fadeInUp">En SST, nos especializamos en brindar soluciones integrales de seguridad electrónica para hogares y
-                    empresas. Nuestro compromiso es ofrecer productos y servicios de alta calidad que garanticen la
-                    protección y tranquilidad de nuestros clientes.</p>
-                <p class="animate__animated animate__fadeInUp">Nuestro catálogo incluye una amplia gama de sistemas de seguridad, desde cámaras de vigilancia de
-                    última generación hasta sistemas de alarmas avanzados. Trabajamos con las marcas más reconocidas del
-                    mercado para asegurar que nuestros clientes reciban tecnología confiable y eficiente.</p>
-                <p class="animate__animated animate__fadeInUp">Además de la venta e instalación de equipos, ofrecemos servicios de mantenimiento y monitoreo las 24
-                    horas, asegurando que nuestros sistemas funcionen de manera óptima en todo momento. Nuestro equipo
-                    de expertos está siempre disponible para brindar asesoramiento personalizado y soluciones adaptadas
-                    a las necesidades específicas de cada cliente.</p>
-                <p class="animate__animated animate__fadeInUp">En SST, entendemos la importancia de la seguridad en la vida cotidiana. Por eso, nos esforzamos por
-                    superar las expectativas de nuestros clientes, proporcionando un servicio excepcional y productos
-                    innovadores que les permitan vivir y trabajar con confianza.</p>
+                <p class="animate__animated animate__fadeInUp">
+                    Bienvenidos a SST, una empresa de seguridad electrónica dedicada a proteger
+                    hogares, empresas y bienes mediante soluciones tecnológicas confiables.
+                </p>
+
+                <p class="animate__animated animate__fadeInUp">
+                    Nos especializamos en la instalación y configuración de sistemas de cámaras,
+                    alarmas y control de accesos, trabajando con marcas líderes del mercado.
+                </p>
+
+                <p class="animate__animated animate__fadeInUp">
+                    Nuestro equipo brinda asesoramiento personalizado, mantenimiento y soporte
+                    técnico para garantizar el correcto funcionamiento de cada sistema.
+                </p>
+
+                <p class="animate__animated animate__fadeInUp">
+                    En SST entendemos que la seguridad es una prioridad, por eso ofrecemos
+                    soluciones adaptadas a cada necesidad.
+                </p>
             </article>
+
+            <!-- VIDEO -->
             <article class="grid-area-index">
-                <iframe width="450" height="215" src="https://www.youtube.com/embed/WJm57RiYV98?si=N3KxOgWlnmXEHXG3"
+                <iframe width="450" height="215"
+                    src="https://www.youtube.com/embed/WJm57RiYV98?si=N3KxOgWlnmXEHXG3"
                     title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </article>
+
         </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p class="footer-p">Derechos reservados. Desde 2025</p>
-        <p class="footer-p">Seguinos en nuestras redes sociales.</p>
+        <p class="footer-p">Derechos reservados © 2025</p>
+        <p class="footer-p">Seguinos en nuestras redes sociales</p>
 
-        <a href=""><img src="assets/icon_whatsapp.png" alt="icon_whatsapp" width="30"></a>
-        <a href=""><img src="assets/icon_facebook.png" alt="icon_facebook" width="30"></a>
-        <a href=""><img src="assets/icon_instagram.jpg" alt="icon_instagram" width="30"></a>
+        <a href="#"><img src="assets/icon_whatsapp.png" alt="WhatsApp" width="30"></a>
+        <a href="#"><img src="assets/icon_facebook.png" alt="Facebook" width="30"></a>
+        <a href="#"><img src="assets/icon_instagram.jpg" alt="Instagram" width="30"></a>
     </footer>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>

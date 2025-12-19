@@ -1,4 +1,4 @@
-@use '../utilities/variables';
+@use '../utilities/_variables.scss';
 h1 {
     color: variables.$h1-color;
     text-align: center;
@@ -83,3 +83,59 @@ main {
 }
 
 
+// .carousel-servicios {
+//     max-width: 1100px;
+//     margin: 0 auto;
+
+//     .carousel-item img {
+//         max-height: 500px;
+//         object-fit: cover;
+//         border-radius: 10px;
+//     }
+
+//     .carousel-caption {
+//         background: rgba(0, 0, 0, 0.55);
+//         border-radius: 8px;
+//         padding: 0.5rem 1rem;
+//     }
+// }
+
+// .carousel-index {
+//     max-width: 1100px;
+//     margin: 2rem auto;
+
+//     .carousel-item img {
+//         max-height: 500px;
+//         object-fit: cover;
+//         border-radius: 10px;
+//     }
+
+//     .carousel-caption {
+//         background: rgba(0, 0, 0, 0.55);
+//         border-radius: 8px;
+//         padding: 0.5rem 1rem;
+//     }
+// }
+
+
+// .carousel-marcas {
+//     max-width: 1100px;
+//     margin: 2rem auto;
+
+//     .carousel-item {
+//         height: 500px;
+//     }
+
+//     .carousel-item img {
+//         height: 100%;
+//         width: 100%;
+//         object-fit: cover;
+//         border-radius: 10px;
+//     }
+
+//     .carousel-caption {
+//         background: rgba(0, 0, 0, 0.55);
+//         border-radius: 8px;
+//         padding: 0.5rem 1rem;
+//     }
+// }

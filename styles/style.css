@@ -18,7 +18,7 @@ nav .li-nav {
 }
 nav .navbar-principal {
   border: 2px solid rgb(131, 128, 128);
-  background-color: #cacecc;
+  background-color: #00b45a;
   margin-bottom: 20px;
   border-radius: 500px;
   margin: 50px;
@@ -141,5 +141,27 @@ main {
   color: grey;
   font-weight: 600;
 }
+
+/* ===== BASE CAROUSEL ===== */
+.carousel-base, .carousel-marcas, .carousel-servicios, .carousel-index {
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+.carousel-base .carousel-item, .carousel-marcas .carousel-item, .carousel-servicios .carousel-item, .carousel-index .carousel-item {
+  height: 320px;
+}
+.carousel-base .carousel-item img, .carousel-marcas .carousel-item img, .carousel-servicios .carousel-item img, .carousel-index .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.carousel-base .carousel-caption, .carousel-marcas .carousel-caption, .carousel-servicios .carousel-caption, .carousel-index .carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+/* ===== EXTENDS ===== */
 
 /*# sourceMappingURL=style.css.map */

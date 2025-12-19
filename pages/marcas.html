@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- CSS propio -->
     <link rel="stylesheet" href="../styles/style.css">
+
     <title>SST - Marcas</title>
 </head>
+
 <body>
 
+    <!-- HEADER -->
     <header>
-        <nav class="navbar-principal navbar navbar-expand-lg bg-body-secondary">
+        <nav class="navbar-principal navbar navbar-expand-lg">
+
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/logo.png" alt="Logo" width="150">
+                    <img src="../assets/logo.png" alt="Logo SST" width="150">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,25 +37,25 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/sobre_nosotros.html">Sobre Nosotros</a>
+                            <a class="nav-link" href="./sobre_nosotros.html">Sobre Nosotros</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                            <a class="nav-link" href="./servicios.html">Servicios</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Marcas</a>
+                            <a class="nav-link active" href="#">Marcas</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="../pages/novedades.html">Novedades</a>
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
                         </li>
 
                     </ul>
@@ -52,37 +64,148 @@
         </nav>
     </header>
 
-    <main>
-        <h1 class="animate__animated animate__fadeInUp">Seguridad y Soluciones Tecnologicas</h1>
-        <h2 class="animate__animated animate__fadeInUp">Marcas que trabajamos:</h2>
-        
-        <div class="container text-center">
-            <div class="row row-cols-3">
-                <div class="col">
-                    <img src="../assets/dahua_logo.png" alt="dahua_logo" width="150" class="animate__animated animate__backInRight">
+    <!-- MAIN -->
+    <main class="container my-5">
+
+        <h1 class="text-center animate__animated animate__fadeInUp">
+            Marcas con las que trabajamos
+        </h1>
+
+        <p class="text-center mb-5 animate__animated animate__fadeInUp">
+            En SST trabajamos exclusivamente con marcas líderes del mercado de la
+            seguridad electrónica, garantizando calidad, confiabilidad y tecnología
+            de última generación.
+        </p>
+
+        <!-- CAROUSEL MARCAS -->
+        <section class="carousel-marcas mb-5">
+            <div id="carouselMarcas" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="../assets/oficina_Dahua.png" class="d-block w-100" alt="Oficinas Dahua Technology">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dahua Technology</h5>
+                            <p>Fabricante líder mundial en soluciones de videovigilancia.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../assets/oficina_Hikvision.jpg" class="d-block w-100" alt="Oficinas Hikvision">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Hikvision</h5>
+                            <p>Líder global en seguridad electrónica e inteligencia artificial.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../assets/oficina_Intelbras.jpg" class="d-block w-100" alt="Planta Intelbras">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Intelbras</h5>
+                            <p>Referencia en soluciones de seguridad y comunicaciones en Latinoamérica.</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="../assets/oficina_zkteco.jpg" class="d-block w-100" alt="Oficinas ZKTeco">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ZKTeco</h5>
+                            <p>Especialistas en control de acceso y soluciones biométricas.</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col">
-                    <img src="../assets/hikvision_logo.png" alt="hikvision_logo" width="150" class="animate__animated animate__backInRight">
-                </div>
-                <div class="col">
-                    <img src="../assets/intelbras_logo.png" alt="intelbras_logo" width="150" class="animate__animated animate__backInRight">
-                </div>
-                <div class="col">
-                    <img src="../assets/zkteco_logo.png" alt="zkteco_logo" width="150" class="animate__animated animate__backInRight">
-                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarcas"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMarcas"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
             </div>
+        </section>
+
+        <!-- MARCAS -->
+        <div class="row g-5">
+
+            <!-- DAHUA -->
+            <div class="col-md-6 col-lg-3 text-center marca">
+                <img src="../assets/dahua_logo.png" alt="Dahua" width="150"
+                    class="mb-3 animate__animated animate__backInRight">
+
+                <h4>Dahua Technology</h4>
+                <p>
+                    Dahua es uno de los principales fabricantes mundiales de soluciones
+                    de videovigilancia. Sus productos se destacan por la innovación,
+                    la analítica inteligente y la excelente calidad de imagen, siendo
+                    ideales para proyectos residenciales y empresariales.
+                </p>
+            </div>
+
+            <!-- HIKVISION -->
+            <div class="col-md-6 col-lg-3 text-center marca">
+                <img src="../assets/hikvision_logo.png" alt="Hikvision" width="150"
+                    class="mb-3 animate__animated animate__backInRight">
+
+                <h4>Hikvision</h4>
+                <p>
+                    Hikvision es líder global en seguridad electrónica y soluciones
+                    basadas en inteligencia artificial. Ofrece cámaras, alarmas,
+                    control de accesos y videoportería con tecnología avanzada y alta
+                    confiabilidad.
+                </p>
+            </div>
+
+            <!-- INTELBRAS -->
+            <div class="col-md-6 col-lg-3 text-center marca">
+                <img src="../assets/intelbras_logo.png" alt="Intelbras" width="150"
+                    class="mb-3 animate__animated animate__backInRight">
+
+                <h4>Intelbras</h4>
+                <p>
+                    Intelbras es una marca reconocida en Latinoamérica por sus soluciones
+                    en seguridad, redes y comunicaciones. Sus equipos se caracterizan por
+                    su robustez, facilidad de uso y excelente relación precio-calidad.
+                </p>
+            </div>
+
+            <!-- ZKTECO -->
+            <div class="col-md-6 col-lg-3 text-center marca">
+                <img src="../assets/zkteco_logo.png" alt="ZKTeco" width="150"
+                    class="mb-3 animate__animated animate__backInRight">
+
+                <h4>ZKTeco</h4>
+                <p>
+                    ZKTeco es especialista en sistemas de control de acceso, asistencia
+                    y biometría. Sus soluciones incluyen lectores de huella, reconocimiento
+                    facial y tarjetas, ideales para empresas y edificios corporativos.
+                </p>
+            </div>
+
         </div>
-        
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p class="footer-p">Derechos reservados. Desde 2025</p>
-        <p class="footer-p">Seguinos en nuestras redes sociales.</p>
-        
-        <a href=""><img src="../assets/icon_whatsapp.png" alt="icon_whatsapp" width="30"></a>
-        <a href=""><img src="../assets/icon_facebook.png" alt="icon_facebook" width="30"></a>
-        <a href=""><img src="../assets/icon_instagram.jpg" alt="icon_instagram" width="30"></a>
+        <p class="footer-p">Derechos reservados © 2025</p>
+        <p class="footer-p">Seguinos en nuestras redes sociales</p>
+
+        <a href="#"><img src="../assets/icon_whatsapp.png" alt="WhatsApp" width="30"></a>
+        <a href="#"><img src="../assets/icon_facebook.png" alt="Facebook" width="30"></a>
+        <a href="#"><img src="../assets/icon_instagram.jpg" alt="Instagram" width="30"></a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
